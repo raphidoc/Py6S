@@ -86,7 +86,7 @@ class Wavelengths:
             print(wavelengths)
             print(type(wavelengths))
 
-        print("Running for many wavelengths - this may take a long time")
+        #print("Running for many wavelengths - this may take a long time")
         results = pool.map(f, wavelengths)
 
         pool.close()

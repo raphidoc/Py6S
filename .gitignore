@@ -20,3 +20,6 @@ CHL
 .ropeproject
 *.ipynb
 .coverage
+
+# PyCharm files
+.idea/
